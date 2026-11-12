@@ -24,6 +24,12 @@
     <ClInclude Include="solution1.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="solution2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="solution3.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">

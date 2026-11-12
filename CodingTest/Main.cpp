@@ -1,12 +1,15 @@
 #include "Main.h"
-#include "solution1.h"
+#include "solution3.h"
 
 int main(void)
 {
-	vector<int> arr{ 1, 1, 3, 3, 0, 1, 1 };
-	for (const auto& e : Mysolution1(arr))
+	vector<int> progresses{ 93, 30, 55 };
+	vector<int> speed{ 1, 30, 5 };
+
+	for (auto e : solution(progresses, speed))
 	{
 		cout << e << " ";
 	}
+	
 
 }
