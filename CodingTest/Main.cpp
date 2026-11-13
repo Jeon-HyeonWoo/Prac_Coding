@@ -1,15 +1,19 @@
 #include "Main.h"
-#include "solution3.h"
+#include "sort1.h"
 
 int main(void)
 {
-	vector<int> progresses{ 93, 30, 55 };
-	vector<int> speed{ 1, 30, 5 };
+	vector<int> n{ 1, 5, 2, 6, 3, 7, 4 };
+	vector<vector<int>> n2{ {2, 5, 3 }, { 4, 4, 1 }, { 1, 7, 3 } };
 
-	for (auto e : solution(progresses, speed))
+	for (auto e : solution(n, n2))
 	{
 		cout << e << " ";
 	}
-	
-
 }
+
+
+
+
+
+

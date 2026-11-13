@@ -128,11 +128,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Hash1.h" />
+    <ClInclude Include="Hash2.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="solution1.h" />
-    <ClInclude Include="solution2.h" />
-    <ClInclude Include="solution3.h" />
+    <ClInclude Include="sort1.h" />
+    <ClInclude Include="Stack1.h" />
+    <ClInclude Include="Stack2.h" />
+    <ClInclude Include="Stack3.h" />
+    <ClInclude Include="Stack4.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
